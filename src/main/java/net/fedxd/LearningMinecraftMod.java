@@ -2,6 +2,7 @@ package net.fedxd;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fedxd.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,6 +16,7 @@ public class LearningMinecraftMod implements ModInitializer {
 	public void onInitialize() {
 
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerItems();
 	}
 }
 
