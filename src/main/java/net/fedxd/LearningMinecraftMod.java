@@ -17,3 +17,4 @@ public class LearningMinecraftMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 	}
 }
+
